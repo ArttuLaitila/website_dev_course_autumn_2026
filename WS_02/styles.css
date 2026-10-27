@@ -10,3 +10,7 @@ h1 {font-size: 2em;
     background-color: #f0f0f0;
     border: 1px solid #ccc;
 }
+img {
+    width: 150px;
+    height: auto; /*Maintain aspect ratio*/
+}
