@@ -12,5 +12,6 @@ h1 {font-size: 2em;
 }
 img {
     width: 150px;
-    height: auto; /*Maintain aspect ratio*/
+    height: 150px;
+    object-fit: cover; 
 }
