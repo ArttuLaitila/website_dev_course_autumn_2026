@@ -39,8 +39,32 @@
       </ul>
   .pseudo-list li:nth-child(odd) {
     background-color: lightgray;
+  }
+  <img src="./IMG_20260218_131110.jpg" alt="Sample Image" class="filter-image">
+  .filter-image {
+    filter: grayscale (100%);
+    transition: filter 0.3s ease;
   } 
-</head>
+  .filter-image:hover {
+    filter: grayscale (0%);
+  }
+  <blockquote class="quote">
+    <p>This is a sample quote.</p>
+  </blockquote>
+  .quote {
+    position: relative;
+    padding-left: 20px;
+    font-style: italic;
+  }
+  .quote::before {
+        content: '“';
+        font-size: 40px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: lightgray;
+      }
+  </head>
 <body>
   
     <h1 style="color: red;">Tervetuloa sivustolleni</h1>
