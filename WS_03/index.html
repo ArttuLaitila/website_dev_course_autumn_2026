@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artun ensimmäinen sivusto!</title>
+    <style> h1 { color: red; }</style>
+<link rel="stylesheet" href="./styles.css">  
+</head>
+<body>
+  <button class="transition-button">Hover me</button>
+  .transition-button {
+    background-color: lightblue;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .transition-button:hover {
+    background-color: lightcoral;
+  }
+  <div class="animation-box"></div>
+  .animation-box {
+    width: 50px;
+    height: 50px;
+    background-color: lightgreen;
+    position: relative;
+    animation: move 2s infinite alternate;
+  }
+  @keyframes move {
+    from { left: 0;
+    }
+    to { left: 100px;
+    }
+  }
+  <ul class="pseudo-list"
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+  <li>Item 4</li>
+  </ul>
+  .pseudo-list li:nth-child(odd) {
+    background-color: lightgray;
+  }
+    <h1 style="color: red;">Tervetuloa sivustolleni</h1>
+    <p>Olen 23-vuotias Vantaalta</p>
+    <img src="./IMG_20260218_131110.jpg" alt="Kuva">
+    <h2>Harrastukseni</h2>
+    <ol>
+        <li>Autot</li>
+        <li>Videopelit</li>
+        <li>Urheilu</li>
+    </ol>
+    <a href="https://www.laurea.fi/">Vieraile Laurean sivulla</a>
+ <table>
+  <tr>
+    <th>Olen matkustanut</th>
+    <th>Haluaisin matkustaa</th>
+  </tr>
+  <tr>
+    <td>Espanja</td>
+    <td>Japani</td>
+  </tr>
+  <tr>
+    <td>Ruotsi</td>
+    <td>USA</td>
+  </tr>
+</table>
+<div class="content-box">
+  <h3>Kirjautuminen</h3>
+  <p>Täytä tähän tietosi</p>
+</div>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="Email" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+
+</body>
+</html>
