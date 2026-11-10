@@ -1,32 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Artun ensimmäinen sivusto!</title>
     <button class="transition-button">Hover me</button>
-    <img src="IMG_20260218_131110.jpg" alt="Sample Image" class="filter-image">
-<link rel="stylesheet" href="./styles.css"> 
+    <img
+      src="./Honda_Syksy.jpg"
+      alt="Sample Image"
+      class="filter-image"
+    />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
-<body>
-  <div class="animation-box"></div>
-  <blockquote class ="quote">This is a Sample quote.</blockquote>
+  <body>
+    <div class="animation-box"></div>
+    <blockquote class="quote">This is a Sample quote.</blockquote>
 
     <ul class="pseudo-list">
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-      </ul>
-    <style>h1 {color: rgb(240, 7, 224);} 
-    .transition-button {
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
+    <style>
+      h1 {
+        color: rgb(240, 7, 224);
+      }
+      .transition-button {
         background-color: rgb(10, 223, 234);
         padding: 10px 20px;
         border: none;
         cursor: pointer;
         transition: background-color 0.3s ease;
       }
-      
+
       .transition-button:hover {
         background-color: rgb(240, 7, 224);
       }
@@ -37,7 +44,7 @@
         position: relative;
         animation: move 2s infinite alternate;
       }
-      
+
       @keyframes move {
         from {
           left: 0;
@@ -49,7 +56,7 @@
       .pseudo-list li:nth-child(odd) {
         background-color: lightgray;
       }
-      
+
       .pseudo-list li:nth-child(even) {
         background-color: white;
       }
@@ -57,7 +64,7 @@
         filter: grayscale(100%);
         transition: filter 0.3s ease;
       }
-      
+
       .filter-image:hover {
         filter: grayscale(0%);
       }
@@ -66,53 +73,50 @@
         padding-left: 20px;
         font-style: italic;
       }
-      
+
       .quote::before {
-        content: '“';
+        content: "“";
         font-size: 40px;
         position: absolute;
         left: 0;
         top: 0;
         color: lightgray;
       }
-
     </style>
-  
-    <h1 style="color: red;">Tervetuloa sivustolleni</h1>
+
+    <h1 style="color: red">Tervetuloa sivustolleni</h1>
     <p>Olen 23-vuotias Vantaalta</p>
     <h2>Harrastukseni</h2>
     <ol>
-        <li>Autot</li>
-        <li>Videopelit</li>
-        <li>Urheilu</li>
+      <li>Autot</li>
+      <li>Videopelit</li>
+      <li>Urheilu</li>
     </ol>
     <a href="https://www.laurea.fi/">Vieraile Laurean sivulla</a>
- <table>
-  <tr>
-    <th>Olen matkustanut</th>
-    <th>Haluaisin matkustaa</th>
-  </tr>
-  <tr>
-    <td>Espanja</td>
-    <td>Japani</td>
-  </tr>
-  <tr>
-    <td>Ruotsi</td>
-    <td>USA</td>
-  </tr>
-</table>
-<div class="content-box">
-  <h3>Kirjautuminen</h3>
-  <p>Täytä tähän tietosi</p>
-</div>
+    <table>
+      <tr>
+        <th>Olen matkustanut</th>
+        <th>Haluaisin matkustaa</th>
+      </tr>
+      <tr>
+        <td>Espanja</td>
+        <td>Japani</td>
+      </tr>
+      <tr>
+        <td>Ruotsi</td>
+        <td>USA</td>
+      </tr>
+    </table>
+    <div class="content-box">
+      <h3>Kirjautuminen</h3>
+      <p>Täytä tähän tietosi</p>
+    </div>
     <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name"><br><br>
-        <label for="email">Email:</label>
-        <input type="Email" id="email" name="email"><br><br>
-        <input type="submit" value="Submit">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" /><br /><br />
+      <label for="email">Email:</label>
+      <input type="Email" id="email" name="email" /><br /><br />
+      <input type="submit" value="Submit" />
     </form>
-
-
-</body>
+  </body>
 </html>
