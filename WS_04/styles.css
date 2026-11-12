@@ -112,7 +112,7 @@ h1 {
 }
 
 .grid-item {
-  background-color: lightgreen;
+  background-color: rgb(233, 5, 5);
   padding: 20px;
   text-align: center;
 }

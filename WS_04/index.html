@@ -1,18 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artun ensimmäinen sivusto!</title>
-    <button class="transition-button">Hover me</button>
-
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <style>
-    
-  </style>
+    <link rel="stylesheet" href="./styles.css">
+    </head>
   <body>
     <header>
+      <button class="transition-button">Hover me</button>
   <h1 style="color: #f007e0">Tervetuloa sivustolleni</h1>
   <nav>
     <ul>
@@ -22,9 +18,22 @@
     </ul>
   </nav>
 </header>
- <div class="grid-container">
+<main>
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="./Honda_Syksy.jpg"
+      alt="Sample Image"
+      class="filter-image">
+    <p>Yllä kuva minusta ja harraste autostani</p>
+    <p>Olen 23-vuotias Vantaalta</p>
+  </section>
+</main>
+
+<footer>
+  <p>Copyright 2025</p>
+   <div class="grid-container">
       <div class="grid-item">1</div>
-      <div class="grid_item">2</div>
+      <div class="grid-item">2</div>
       <div class="grid-item">3</div>
       <div class="grid-item">4</div>
       <div class="grid-item">5</div>
@@ -35,22 +44,7 @@
   <div class="box">Box 2</div>
   <div class="box">Box 3</div>
 </div>
-<div class="responsive-box">Resize the window to see the effect</div>
-
-<main>
-  <section id="about">
-    <h2>About Me</h2>
-    <img
-      src="./Honda_Syksy.jpg"
-      alt="Sample Image"
-      class="filter-image"/>
-    <p>Yllä kuva minusta ja harraste autostani</p>
-    <p>Olen 23-vuotias Vantaalta</p>
-  </section>
-</main>
-
-<footer>
-  <p>Copyright 2025</p>
+<div class="responsive-box">Muuta ikkunan kokoa nähdäksesi efektin</div>
 </footer>
     <div class="animation-box"></div>
     <blockquote class="quote">This is a Sample quote.</blockquote>
@@ -84,14 +78,14 @@
     </table>
     <div class="content-box">
       <h3>Kirjautuminen</h3>
-      <p>Täytä tähän tietosi</p>
+      <p>Täytä alle tietosi</p>
     </div>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" /><br /><br />
-      <label for="email">Email:</label>
-      <input type="Email" id="email" name="email" /><br /><br />
-      <input type="submit" value="Submit" />
+ <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <input type="submit" value="Submit">
     </form>
   </body>
 </html>
